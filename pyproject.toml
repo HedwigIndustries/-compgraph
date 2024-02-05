@@ -1,0 +1,19 @@
+[tool.setuptools]
+packages = ['compgraph', 'examples', 'tests']
+[project]
+name = 'compgraph'
+version = '0.1.0'
+authors = [
+    { name = 'Kadyrov Rustam', email = 'rustam_kadyrov_03@mail.ru' },
+]
+description = 'Library for graph computation.'
+readme = 'LIB_README.md'
+requires-python = '>=3.11'
+keywords = ['graph', 'map', 'reduce']
+license = { text = 'BSD 3-Clause License' }
+classifiers = [
+    'Programming Language :: Python :: 3.11'
+]
+dependencies = [
+    'click'
+]
